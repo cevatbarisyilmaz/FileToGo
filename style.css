@@ -1,0 +1,22 @@
+body {
+	font-family: monospace;
+}
+table {
+	margin: 4vh auto;
+}
+tr {
+	margin: 4px
+}
+td {
+	padding: 4px;
+}
+input {
+	padding: 4px;
+	font-family: inherit;
+}
+button {
+	font-family: inherit;
+}
+#last {
+	text-align: center;
+}

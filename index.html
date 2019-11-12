@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="File To Go">
-  <meta name="keywords" content="file,go,golang">
-  <title>File To Go</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="File To Go">
+	<meta name="keywords" content="file,go,golang">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>File To Go</title>
 </head>
 <body>
-  <input id="source" type="file">
-  <script src="script.js"></script>
+	<table>
+		<tr>
+			<td>Source File</td>
+			<td><input id="source_file" type="file"></td>
+		</tr>
+		<tr>
+			<td>Package Name</td>
+			<td><input id="package_name" type="text" value="main"></td>
+		</tr>
+		<tr>
+			<td>Variable Name</td>
+			<td><input id="variable_name" type="text" value="data"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="type" checked=> Slice</td>
+			<td><input id="array" type="radio" name="type"> Array</td>
+		</tr>
+		<tr>
+			<td>File Name</td>
+			<td><input id="file_name" type="text" value="data">.go</td>
+		</tr>
+		<tr>
+			<td id="last" colspan="2"><button id="convert_button">Convert</button></td>
+		</tr>
+	</table>
+	<script src="script.js"></script>
 </body>
 </html>

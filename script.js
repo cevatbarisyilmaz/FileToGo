@@ -35,5 +35,5 @@ convertButton.addEventListener("click", () => {
 		downloadLink.click();
 		window.URL.revokeObjectURL(downloadLink.href);
 		downloadLink.remove();
-		});
+	});
 });
